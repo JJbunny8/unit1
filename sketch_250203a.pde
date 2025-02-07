@@ -51,8 +51,10 @@ quad(0, 400, 100, 400, 400, 600, 300, 600);
 
 //igloo
 arc(440, 450, 250, 250, radians(170), radians(370), OPEN);
+//arc(440, 450, 200, 200, radians(170), radians(370), OPEN);
 line(310, 440, 360, 420);
 line(325, 499, 385, 480);
+fill(#7D7A8B);
 arc(310, 490, 50, 100, radians(170), radians(370), CHORD);
 
 
@@ -60,3 +62,17 @@ arc(310, 490, 50, 100, radians(170), radians(370), CHORD);
 rect(10, 550, 40, 80);
 triangle(-50, 565, 25, 300, 100, 565);
 triangle(150, 565, 25, 300, 100, 565);
+
+//animal
+ellipse(440, 580, 20, 20);
+ellipse(460, 580, 20, 20);
+ellipse(428, 552, 15, 50);
+ellipse(472, 552, 15, 50);
+ellipse(450, 550, 50, 70);
+ellipse(450, 550, 30, 50);
+ellipse(450, 510, 50, 45);
+ellipse(450, 515, 40, 35);
+ellipse(443, 510, 5, 5);
+ellipse(458, 510, 5, 5);
+fill()
+triangle(450, 515, 450, 520, 460, 517);
