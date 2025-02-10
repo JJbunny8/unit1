@@ -7,15 +7,17 @@
 
 
 //define your own variables here
-int w;
+int y;
 
 void setup() {
   size(600, 600);
-  w = 0; //set the sarting value
+  y = 0; //set the sarting value
 } // -----end of setup ---------
 
 void draw() {
-  background(w);
-  ellipse(300, 300, 200, 200);
-  w = w + 1;
+  background(255);
+  ellipse(300, y, 200, 200);
+  y = y + 1;
+  if (y > 700)
+  y = -100;
 } // -----end of draw ---------
